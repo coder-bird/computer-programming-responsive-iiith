@@ -2,8 +2,19 @@
 <html>
 <head>
 <link rel = 'stylesheet' type = 'text/css' href = 'array.css' />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- <link href = 'http://fonts.googleapis.com/css?family=Inconsolata' rel = 'stylesheet' type = 'text/css' > -->
 <script src = 'array.js' ></script>
+<script>
+	$(document).ready(function(){
+  	$("#btnRandom").click(function(){
+    $("#userInput").hide();
+  });
+  $("#btnManual").click(function(){
+    $("#userInput").show();
+  });
+});
+</script>
 <title>Computer-Programming</title>
 </head>
 
