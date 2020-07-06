@@ -544,6 +544,10 @@ window.view = {
 		document.getElementById('buttonEdit').className = 'button editButton'
 	},
 	deFreezeInputs: function () {
+		document.getElementById('a').value = 0
+		document.getElementById('b').value = 0
+		document.getElementById('c').value = 0
+		document.getElementById('d').value = 0
 		this.enableElement('a')
 		this.enableElement('b')
 		this.enableElement('c')
